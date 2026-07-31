@@ -53,26 +53,13 @@
 </ul>
 
             <form class="newsletter__form" action="#" method="POST" novalidate>
-              <div class="newsletter__field newsletter__field--error">
-                <div class="newsletter__label-wrapper">
-                  <label for="email" class="newsletter__label">
-                    Email address
-                  </label>
-                  <span class="newsletter__error-message" id="email-error">
-                    Valid email required
-                  </span>
-                </div>
-
-                <input
-                  type="email"
-                  id="email"
-                  name="email"
-                  class="newsletter__input"
-                  placeholder="email@company.com"
-                  aria-describedby="email-error"
-                  required
-                />
-              </div>
+             <div class="newsletter__field">
+  <div class="newsletter__field-header">
+    <label class="newsletter__label" for="email">Email address</label>
+    <span class="newsletter__error-message">Valid email required</span>
+  </div>
+  <input class="newsletter__input" type="email" id="email" placeholder="email@company.com" />
+</div>
 
               <button type="submit" class="newsletter__button">
                 Subscribe to monthly newsletter
