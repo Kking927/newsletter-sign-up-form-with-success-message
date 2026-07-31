@@ -22,6 +22,9 @@ document.addEventListener('DOMContentLoaded', () => {
     emailInput.removeAttribute('aria-invalid');
   };
 
+  // Reset form validation state on DOM load so errors don't persist on page refresh
+  clearError();
+
   // 3. Handle Form Submission
   form.addEventListener('submit', (e) => {
     e.preventDefault(); // Prevent page refresh
