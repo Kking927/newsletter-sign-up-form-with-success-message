@@ -130,20 +130,9 @@ h6 {
 /* MAIN CARD CONTENT                                  */
 /* ================================================== */
 
-.newsletter__media {
-  width: 100%;
-  line-height: 0;
-}
-
-.newsletter__media picture {
-  display: block;
-  line-height: 0;
-}
-
 .newsletter__image {
   width: 100%;
   height: auto;
-  display: block;
   border-radius: 0 0 1rem 1rem;
 }
 
