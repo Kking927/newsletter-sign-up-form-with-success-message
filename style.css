@@ -132,6 +132,12 @@ h6 {
 
 .newsletter__media {
   width: 100%;
+  line-height: 0;
+}
+
+.newsletter__media picture {
+  display: block;
+  line-height: 0;
 }
 
 .newsletter__image {
@@ -323,7 +329,6 @@ h6 {
   .page-container {
     align-items: center;
     padding: 1.5rem;
-    background-color: var(--blue-700);
   }
   
   .newsletter__card {
