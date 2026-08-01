@@ -130,6 +130,11 @@ h6 {
 /* MAIN CARD CONTENT                                  */
 /* ================================================== */
 
+.newsletter__media {
+  width: 100%;
+  line-height: 0;
+}
+
 .newsletter__image {
   width: 100%;
   height: auto;
