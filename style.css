@@ -358,7 +358,7 @@ body {
 
   .newsletter-success {
     border-radius: var(--br-card);
-    padding: 4rem;
+    padding: clamp(2rem, 5vw, 4rem);
     min-height: auto;
     justify-content: flex-start;
     box-shadow: var(--shadow-card-default);
@@ -374,7 +374,7 @@ body {
   .newsletter__card {
     flex-direction: row-reverse;
     align-items: center;
-    gap: 2.5rem;
+    gap: clamp(1.5rem, 3.5vw, 2.5rem);
     padding: 1.5rem;
   }
 
