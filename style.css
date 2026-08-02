@@ -302,7 +302,7 @@ body {
 }
 
 .newsletter-success__icon-wrapper {
-  margin-block-start: 2rem;
+  margin-block-start: clamp(1rem, 4vw, 2rem);
 }
 
 .newsletter-success__icon {
@@ -315,13 +315,13 @@ body {
   font-weight: var(--fw-bold);
   color: var(--blue-800);
   line-height: 1.1;
-  margin-block-start: 1.5rem;
+  margin-block-start: clamp(1rem, 3vw, 1.5rem);
 }
 
 .newsletter-success__description {
   color: var(--blue-800);
   line-height: 1.5;
-  margin-block-start: 1.5rem;
+  margin-block-start: clamp(1rem, 3vw, 1.5rem);
 }
 
 .newsletter-success__email {
