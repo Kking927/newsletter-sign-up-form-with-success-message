@@ -329,10 +329,13 @@ h6 {
     border-radius: var(--br-card);
     padding: 1.5rem;
     box-shadow: 0 15px 30px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    background-clip: padding-box;
   }
 
   .newsletter__image {
     border-radius: var(--br-card-img);
+    transform: translateZ(0);
   }
 
   .newsletter-success {
