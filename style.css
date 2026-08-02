@@ -374,7 +374,6 @@ body {
   .newsletter__card {
     flex-direction: row-reverse;
     align-items: center;
-    gap: clamp(1.5rem, 3.5vw, 2.5rem);
     padding: clamp(1rem, 2.5vw, 1.5rem);
   }
 
