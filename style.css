@@ -264,7 +264,7 @@ body {
 .newsletter__button,
 .newsletter-success__button {
   width: 100%;
-  padding: 1rem 1.5rem;
+  padding: clamp(0.75rem, 2vw, 1rem) clamp(1rem, 3vw, 1.5rem);
   background-color: var(--blue-800);
   color: var(--white);
   font-weight: var(--fw-bold);
