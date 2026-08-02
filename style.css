@@ -133,7 +133,6 @@ body {
 .newsletter__media {
   width: 100%;
   line-height: 0;
-  background-color: var(--white);
   overflow: hidden;
 }
 
