@@ -11,24 +11,28 @@
       <main class="newsletter">
         <article class="newsletter__card">
           <div class="newsletter__media">
-  <picture>
-    <source 
-      srcset="images/illustration-sign-up-desktop.svg" 
-      media="(min-width: 64rem)"
-    />
+            <picture>
+              <source
+                srcset="
+                  https://raw.githubusercontent.com/Kking927/newsletter-sign-up-form-with-success-message/60c9525ed41781ba8faf5871291486c4751e2412/images/illustration-sign-up-desktop.svg
+                "
+                media="(min-width: 48rem)"
+              />
 
-    <source 
-      srcset="images/illustration-sign-up-tablet.svg" 
-      media="(min-width: 48rem)"
-    />
-    
-    <img 
-      src="images/illustration-sign-up-mobile.svg" 
-      alt="Dashboard interface preview with analytics chart and score ring" 
-      class="newsletter__image"
-    />
-  </picture>
-</div>
+              <source
+                srcset="
+                  https://raw.githubusercontent.com/Kking927/newsletter-sign-up-form-with-success-message/60c9525ed41781ba8faf5871291486c4751e2412/images/illustration-sign-up-tablet.svg
+                "
+                media="(min-width: 48rem)"
+              />
+
+              <img
+                src="https://raw.githubusercontent.com/Kking927/newsletter-sign-up-form-with-success-message/60c9525ed41781ba8faf5871291486c4751e2412/images/illustration-sign-up-mobile.svg"
+                alt="Dashboard interface preview with analytics chart and score ring"
+                class="newsletter__image"
+              />
+            </picture>
+          </div>
 
           <div class="newsletter__content">
             <h1 class="newsletter__title">Stay updated!</h1>
@@ -38,28 +42,56 @@
             </p>
 
             <ul class="newsletter__features">
-  <li class="newsletter__feature">
-    <img src="images/icon-list.svg" alt="" aria-hidden="true" class="newsletter__feature-icon" />
-    <span class="newsletter__feature-text">Product discovery and building what matters</span>
-  </li>
-  <li class="newsletter__feature">
-    <img src="images/icon-list.svg" alt="" aria-hidden="true" class="newsletter__feature-icon" />
-    <span class="newsletter__feature-text">Measuring to ensure updates are a success</span>
-  </li>
-  <li class="newsletter__feature">
-    <img src="images/icon-list.svg" alt="" aria-hidden="true" class="newsletter__feature-icon" />
-    <span class="newsletter__feature-text">And much more!</span>
-  </li>
-</ul>
+              <li class="newsletter__feature">
+                <img
+                  src="https://raw.githubusercontent.com/Kking927/newsletter-sign-up-form-with-success-message/60c9525ed41781ba8faf5871291486c4751e2412/images/icon-list.svg"
+                  alt=""
+                  aria-hidden="true"
+                  class="newsletter__feature-icon"
+                />
+                <span class="newsletter__feature-text">
+                  Product discovery and building what matters
+                </span>
+              </li>
+              <li class="newsletter__feature">
+                <img
+                  src="https://raw.githubusercontent.com/Kking927/newsletter-sign-up-form-with-success-message/60c9525ed41781ba8faf5871291486c4751e2412/images/icon-list.svg"
+                  alt=""
+                  aria-hidden="true"
+                  class="newsletter__feature-icon"
+                />
+                <span class="newsletter__feature-text">
+                  Measuring to ensure updates are a success
+                </span>
+              </li>
+              <li class="newsletter__feature">
+                <img
+                  src="https://raw.githubusercontent.com/Kking927/newsletter-sign-up-form-with-success-message/60c9525ed41781ba8faf5871291486c4751e2412/images/icon-list.svg"
+                  alt=""
+                  aria-hidden="true"
+                  class="newsletter__feature-icon"
+                />
+                <span class="newsletter__feature-text">And much more!</span>
+              </li>
+            </ul>
 
             <form class="newsletter__form" action="#" method="POST" novalidate>
-             <div class="newsletter__field">
-  <div class="newsletter__field-header">
-    <label class="newsletter__label" for="email">Email address</label>
-    <span class="newsletter__error-message">Valid email required</span>
-  </div>
-  <input class="newsletter__input" type="email" id="email" placeholder="email@company.com" />
-</div>
+              <div class="newsletter__field">
+                <div class="newsletter__field-header">
+                  <label class="newsletter__label" for="email">
+                    Email address
+                  </label>
+                  <span class="newsletter__error-message">
+                    Valid email required
+                  </span>
+                </div>
+                <input
+                  class="newsletter__input"
+                  type="email"
+                  id="email"
+                  placeholder="email@company.com"
+                />
+              </div>
 
               <button type="submit" class="newsletter__button">
                 Subscribe to monthly newsletter
@@ -69,33 +101,39 @@
         </article>
       </main>
 
-<article 
-      class="newsletter-success newsletter-success--hidden" 
-      id="success-card" 
-      aria-live="polite"
-    >
-      <div class="newsletter-success__icon-wrapper">
-        <img 
-          src="images/icon-success.svg" 
-          alt="" 
-          class="newsletter-success__icon" 
-          aria-hidden="true"
-        />
-      </div>
+      <article
+        class="newsletter-success newsletter-success--hidden"
+        id="success-card"
+        aria-live="polite"
+      >
+        <div class="newsletter-success__icon-wrapper">
+          <img
+            src="https://raw.githubusercontent.com/Kking927/newsletter-sign-up-form-with-success-message/60c9525ed41781ba8faf5871291486c4751e2412/images/icon-success.svg"
+            alt=""
+            class="newsletter-success__icon"
+            aria-hidden="true"
+          />
+        </div>
 
-      <h1 class="newsletter-success__title">Thanks for subscribing!</h1>
+        <h1 class="newsletter-success__title">Thanks for subscribing!</h1>
 
-      <p class="newsletter-success__description">
-        A confirmation email has been sent to 
-        <strong class="newsletter-success__email" id="user-email">ash@loremcompany.com</strong>. 
-        Please open it and click the button inside to confirm your subscription.
-      </p>
+        <p class="newsletter-success__description">
+          A confirmation email has been sent to
+          <strong class="newsletter-success__email" id="user-email">
+            ash@loremcompany.com
+          </strong>
+          . Please open it and click the button inside to confirm your
+          subscription.
+        </p>
 
-      <button type="button" class="newsletter-success__button" id="dismiss-btn">
-        Dismiss message
-      </button>
-    </article>
-      
+        <button
+          type="button"
+          class="newsletter-success__button"
+          id="dismiss-btn"
+        >
+          Dismiss message
+        </button>
+      </article>
     </div>
     <script src="./script.js"></script>
   </body>
