@@ -293,7 +293,7 @@ body {
 }
 
 .newsletter-success__icon-wrapper {
-  margin-top: 2rem;
+  margin-block-start: 2rem;
 }
 
 .newsletter-success__icon {
