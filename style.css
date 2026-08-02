@@ -116,7 +116,8 @@ body {
 
 .newsletter__card {
   background-color: var(--white);
-  width: clamp(20rem, 100vw, 58rem);
+  width: 100%;
+  max-width: 52.75rem;
   display: flex;
   flex-direction: column;
   border-radius: 0;
