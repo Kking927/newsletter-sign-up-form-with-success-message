@@ -155,7 +155,7 @@ body {
   padding: clamp(2.5rem, 5vw, 4rem) clamp(1.5rem, 3.5vw, 2.5rem);
   display: flex;
   flex-direction: column;
-  gap: 2.25rem;
+  gap: 2.125rem;
 }
 
 .newsletter__title {
@@ -380,7 +380,7 @@ body {
 
   .newsletter__content {
     flex: 1;
-    padding: 0;
+    padding: 0 0.5rem;
   }
 
   .newsletter__media {
