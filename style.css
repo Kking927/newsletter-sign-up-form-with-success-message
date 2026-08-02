@@ -346,7 +346,6 @@ body {
   .newsletter__image {
     width: 100%;
     height: auto;
-    transform: none;
   }
 
   .newsletter-success {
