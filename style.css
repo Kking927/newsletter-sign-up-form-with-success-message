@@ -12,6 +12,9 @@
   --white: hsl(0, 0%, 100%);
   --red-accent: #ffe7e7; /* Light Red */
 
+  /* Gradients */
+  --gradient-primary: linear-gradient(204deg, #ff6a3a 0%, #ff5263 100%);
+
   /* Typography */
 
   /* Font Family */
@@ -40,11 +43,6 @@
 
 html {
   scroll-behavior: smooth;
-}
-
-body {
-  min-height: 100vh;
-  line-height: 1.5;
 }
 
 img,
@@ -143,7 +141,7 @@ body {
 }
 
 .newsletter__content {
-  padding: 1.25rem 2.5rem;
+  padding: clamp(1.25rem, 3vw, 2.5rem) clamp(1rem, 4vw, 2.5rem);
   display: flex;
   flex-direction: column;
   gap: 1.25rem;
@@ -268,7 +266,7 @@ body {
 
 .newsletter__button:hover,
 .newsletter-success__button:hover {
-  background: linear-gradient(204deg, #ff6a3a 0%, #ff5263 100%);
+  background: var(--gradient-primary);
   box-shadow: 0 16px 32px rgba(255, 97, 85, 0.5);
 }
 
