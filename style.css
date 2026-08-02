@@ -133,6 +133,7 @@ h6 {
 .newsletter__media {
   width: 100%;
   line-height: 0;
+  background-color: var(--white);
 }
 
 .newsletter__image {
