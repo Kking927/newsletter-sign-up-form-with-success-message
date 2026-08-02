@@ -380,7 +380,7 @@ body {
 
   .newsletter__content {
     flex: 1;
-    padding: 0 0.5rem;
+    padding: 0 clamp(0.25rem, 1vw, 0.5rem);
   }
 
   .newsletter__media {
