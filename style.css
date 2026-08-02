@@ -143,10 +143,10 @@ body {
 }
 
 .newsletter__content {
-  padding: 2.5rem 1.5rem;
+  padding: 3rem 2.5rem;
   display: flex;
   flex-direction: column;
-  gap: 1.5rem;
+  gap: 1.75rem;
 }
 
 .newsletter__title {
@@ -159,6 +159,7 @@ body {
 .newsletter__description {
   color: var(--blue-800);
   line-height: 1.5;
+  max-width: 40ch;
 }
 
 /* Feature List */
@@ -166,6 +167,7 @@ body {
   display: flex;
   flex-direction: column;
   gap: 0.625rem;
+  margin-block-end: 0.75rem;
 }
 
 .newsletter__feature {
