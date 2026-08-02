@@ -15,7 +15,7 @@
 
   /* Box Shadows */
   --shadow-button-active: 0 16px 32px rgba(var(--color-primary-accent-rgb), 0.5);
-  --shadow-card-default: 0 15px 30px rgba(0, 0, 0, 0.1);
+  --shadow-card: 0 15px 30px rgba(0, 0, 0, 0.15);
 
   /* Gradients */
   --gradient-primary: linear-gradient(204deg, #ff6a3a 0%, #ff5263 100%);
@@ -128,7 +128,7 @@ body {
   flex-direction: column;
   border-radius: 0;
   padding: 0;
-  box-shadow: var(--shadow-card-default);
+  box-shadow: var(--shadow-card);
 }
 
 /* ================================================== */
@@ -221,7 +221,7 @@ body {
 
 .newsletter__input {
   width: 100%;
-  padding: 1rem 1.5rem;
+  padding: clamp(0.75rem, 2vw, 1rem) clamp(1rem, 3vw, 1.5rem);
   border: 1px solid var(--grey);
   border-radius: 0.5rem;
   font-size: 1rem;
@@ -319,7 +319,7 @@ body {
 .newsletter-success__description {
   color: var(--blue-800);
   line-height: 1.5;
-  margin-top: 1.5rem;
+  margin-block-start: 1.5rem;
 }
 
 .newsletter-success__email {
@@ -341,7 +341,6 @@ body {
   .newsletter__card {
     border-radius: var(--br-card);
     padding: 1.5rem;
-    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.2);
     overflow: hidden;
     background-clip: padding-box;
   }
